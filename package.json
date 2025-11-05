@@ -1,0 +1,22 @@
+{
+  "name": "django-modern-stack",
+  "version": "1.0.0",
+  "description": "Django 6.0 with modern frontend stack",
+  "scripts": {
+    "dev": "@tailwindcss/cli -i ./static/src/input.css -o ./static/dist/output.css --watch",
+    "build": "@tailwindcss/cli -i ./static/src/input.css -o ./static/dist/output.css --minify",
+    "copy-js": "cp node_modules/htmx.org/dist/htmx.min.js static/js/ && cp node_modules/alpinejs/dist/cdn.min.js static/js/alpine.min.js && cp node_modules/flowbite/dist/flowbite.min.js static/js/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.3",
+    "flowbite": "^3.1.2",
+    "htmx.org": "^2.0.4"
+  }
+}

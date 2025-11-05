@@ -1,0 +1,4 @@
+Django>=6.0,<6.1
+gunicorn>=22.0.0
+django-cotton>=1.0.0
+whitenoise>=6.6.0
